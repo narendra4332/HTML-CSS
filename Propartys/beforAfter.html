@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before After</title>
+</head>
+<style>
+    p.text {
+        display: block;
+        margin: 250px 50px 0px 50px;
+        font-size: 18px;
+        border: 2px solid red;
+        padding: 25px;
+
+    }
+
+    p.text::before {
+        content: 'hello ';
+        color: white;
+        background-color: red;
+    }
+
+    p.text::after {
+        content: 'End ';
+        color: white;
+        background-color: red;
+    }
+</style>
+
+<body>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fugit fuga atque numquam. Cumque, nam
+        mollitia
+        quas aspernatur expedita iure accusantium. Dolorem nihil est eos ea, ipsam explicabo provident, ipsa
+        dignissimos, libero quisquam deleniti autem dolores tempore laboriosam aliquid? Rerum voluptatibus a quod.
+        Consectetur inventore odio ipsum laborum est ad.</p>
+</body>
+
+</html>
