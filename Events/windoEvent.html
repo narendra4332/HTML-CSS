@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+</head>
+
+<body>
+    <button onclick="openWindow()">Open Window</button>
+    <button onclick="closeWindow()">Close Window</button>
+
+    <script>
+        function openWindow() {
+            // window.open("http://www.google.com", "_parent");
+
+            let myWindow = window.open("http://www.google.com", "", "width=200px,hight=200px");
+        };
+        function closeWindow() {
+            myWindow.close()
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 10px;
+    display: grid;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    transition: width 2s;
+    animation-name: demo;
+    animation-direction: alternate-reverse;
+
+}
+
+.Box1 {
+    transition-timing-function: linear;
+}
+
+.Box2 {
+    transition-timing-function: ease;
+}
+
+.Box3 {
+    transition-timing-function: ease-in;
+}
+
+.Box4 {
+    transition-timing-function: ease-out;
+}
+
+.Box5 {
+    transition-timing-function: ease-in-out;
+}
+
+.box:hover {
+    width: 400px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head charset="utf-8">
+        <title>title</title>
+        <style>
+            body {
+                font-family: tahoma;
+                font-size: 1.2em;
+            }
+
+            div#wrapper {
+                margin: 50px auto 0px auto;
+                width: 80%;
+            }
+
+            div#wrapper>div#button {
+                display: inline-block;
+                line-height: 60px;
+                padding: 0px 30px;
+                border-radius: 25px;
+                cursor: pointer;
+            }
+
+            .black {
+                color: white;
+                background-color: black;
+            }
+
+            .white {
+                color: black;
+                background-color: white;
+            }
+        </style>
+    </head>
+
+<body id="body">
+    <div id="wrapper">
+        <div id="button" class="black">Click & change color</div>
+        <div id="content">
+            <h1>Narendra Lodhi</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ex vitae reprehenderit quas? Tenetur
+                repellendus minus, facilis laudantium non modi incidunt magni cum quisquam enim pariatur quia voluptatum
+                nam dignissimos sed iusto ullam, eius eum, facere quis inventore laboriosam numquam vero nisi? Eaque qui
+                amet quos sit voluptatibus, perspiciatis, ipsum libero, maxime quibusdam voluptas suscipit officiis
+                quaerat laboriosam facere velit tempora molestiae aliquid ducimus. Aperiam suscipit autem hic, repellat
+                consequuntur quam culpa soluta deserunt porro ullam delectus. Eveniet beatae quas laborum quod. Adipisci
+                repellendus, a soluta quaerat sit aspernatur, doloribus vel dignissimos distinctio asperiores vero
+                cumque, minus rem. Nesciunt, ipsa.</p>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            let body = document.getElementById("body");
+            let button = document.getElementById("button");
+
+            button.onclick = function () {
+                if (body.claasName == "black") {
+                    body.className = "white";
+                    button.className = "black";
+                } else {
+                    body.className = "black";
+                    button.className = "white";
+                }
+            };
+        }
+    </script>
+</body>
+
+</html>
