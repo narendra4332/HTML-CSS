@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px 10px 20px;
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 20px 30px;
+}
+
+#startNav {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#startNav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#endNav button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#box {
+    width: 100%;
+    height: 90%;
+    background-image: url(https://images.unsplash.com/photo-1510174210589-ed6667381173?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+#box h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+#box p {
+    font-size: 1rem;
+    font-weight: 100;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#box button {
+    background-color: green;
+    color: white;
+    padding: 12px 30px 12px 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}

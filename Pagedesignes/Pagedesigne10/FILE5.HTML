@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Google Form</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-repeat: no-repeat;
+            /* background-color: #9b9894; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 35px;
+        }
+
+        #main {
+            background-color: #000;
+            width: 600px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 60px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        button {
+            padding: 15px;
+            width: 80%;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            margin: 10px;
+
+        }
+
+        i {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+
+        }
+
+        input {
+            background-color: #000;
+            padding: 20px;
+            width: 80%;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .forget {
+            background-color: #000;
+            color: white;
+            border: 1px solid grey;
+        }
+
+        .forget a {
+            color: white;
+        }
+
+        .para {
+            color: white;
+        }
+
+        .para a {
+            color: aqua;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <i class="fa-brands fa-x-twitter logo"></i>
+
+        <h1>Sing in tO X</h1>
+
+        <div>
+            <button>
+                <i class="fa-brands fa-google"></i><a href="">sign in with Google</a>
+            </button>
+
+            <button>
+                <i class="fa-brands fa-apple"></i><a href="">sign in with Apple</a>
+            </button>
+
+            <input type="text" placeholder="Phone,email,or username" style="color: white;">
+
+            <button>
+                <a href="">Next</a>
+            </button>
+
+            <button class="forget">
+                <a href="">Forgot password?</a>
+            </button>
+        </div>
+
+        <div class="para">
+            <p>Dont have an account?<a href="">Sing up</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
